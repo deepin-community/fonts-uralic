@@ -1,5 +1,87 @@
-template-repository (1.0-1) unstable; urgency=medium
+fonts-uralic (0.0.20040829-7) unstable; urgency=medium
 
-  * Initial release
+  * Add debian/salsa-ci.yml
+  * debian/control
+    - Update Maintainer address
+    - Remove Christian Perrier from Uploaders (Closes: #927589)
+    - Use dh13
+    - Set Standards-Version: 4.5.0
+    - Update Vcs-* to point salsa.debian.org
+    - Add Rules-Requires-Root: no
+    - Drop obsolete dependencies to ttf-uralic
+  * Drop debian/preinst to ignore obsolete defoma settings
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Hideki Yamane <henrich@debian.org>  Fri, 16 Oct 2020 23:14:33 +0900
+
+fonts-uralic (0.0.20040829-6) unstable; urgency=medium
+
+  * Team upload.
+  * debian/rules: set TZ=UTC when calling unzip to reproducibly extract the
+    files during build. Based on a patch by Z.Ren - thanks! (Closes: #854362)
+  * Bump standards to 4.1.0, no changes needed.
+  * Bump debian/compat to 10 and build-depend on debhelper >= 10.2.5~.
+  * Use https URL for Vcs-Browser.
+  * Add debian/lintian-overrides because we use the path to test the existence
+    of that command.
+
+ -- Holger Levsen <holger@debian.org>  Wed, 27 Sep 2017 13:02:17 +0200
+
+fonts-uralic (0.0.20040829-5) unstable; urgency=low
+
+  * Update Standards to 3.9.6 (checked)
+  * Drop ttf-uralic transitional package
+  * Add Multi-Arch: foreign field
+  * Use Breaks instead of Conflicts. Drop Provides as it is no
+    longer needed (installations should have transitioned since wheezy
+    and the package has anyway no reverse dependency.
+  * Use git for packaging: adapt Vcs-* fields
+  * Use machine-readable copyright format 1.0
+  * Add Homepage in debian/control
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Oct 2014 15:06:19 +0200
+
+fonts-uralic (0.0.20040829-4) unstable; urgency=low
+
+  * Drop etc/defoma/hitns from debian/dirs. Closes: #673714
+  * Updated Standard to 3.9.3 (checked)
+  * Bump debhelper compatibility to 9
+  * Link to explicit version of GPL document in debian/copyright
+  * Set priority of transitional package to extra
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 22 May 2012 20:46:34 +0200
+
+fonts-uralic (0.0.20040829-3) unstable; urgency=low
+
+  * Team upload
+  * Change section to fonts
+  * Rename source package to "fonts-uralic" to fit the Font
+    Packages Naming Policy.
+  * Bump debhelper compatibility to 8
+  * Change fonts install directory from
+    usr/share/fonts/truetype/ttf-uralic to
+    usr/share/fonts/truetype/uralic
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 09 Nov 2011 19:45:24 +0100
+
+ttf-uralic (0.0.20040829-2) unstable; urgency=low
+
+  * Team upload
+  * Package adopted by the pkg-fonts team
+  * Add ${misc:Depends} to dependecies
+  * Move to debhelper v7 and minimal rules file
+  * Drop defoma support
+  * Drop Recommends on x-ttcidfont-conf
+  * Update FSF address in debian/copyright
+  * Update Standards to 3.9.2 (checked)
+  * Move to source v3 format
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 20 Jul 2011 20:36:50 +0200
+
+ttf-uralic (0.0.20040829-1) unstable; urgency=low
+
+  * Initial release. Closes: #269020 (ITP).
+  * Defoma support.
+
+ -- Vladimir Shahov <mendoza@avb.bas-net.by>  Sun, 29 Aug 2004 14:12:13 +0200

@@ -1,0 +1,61 @@
+*Uralic fonts for Windows*
+
+The Uralic fonts for Windows contain additional letters used in most
+Uralic languages with Russian-based writing systems - Khanty (all
+dialects), Komi, Mansi (without marking long vowels), Mari, Nenets,
+Selkup and Udmurt. According to Musayev*),  the fonts also
+support Altai, Chukchi, Even, Evenki, Koryak and Nanai.
+
+    * Bookman Uralic <http://www.peoples.org.ru/font/BookmanUralic.zip>
+      (regular, bold, italic)
+    * Chancery Uralic
+      <http://www.peoples.org.ru/font/ChanceryUralic.zip> - Decorative
+      calligraphic font
+    * Gothic Uralic <http://www.peoples.org.ru/font/GothicUralic.zip>
+      (regular, bold) - Futura-like sans serif
+    * Mono Uralic <http://www.peoples.org.ru/font/MonoUralic.zip>
+      (regular) - Courier-like fixed width font
+    * Palladio Uralic
+      <http://www.peoples.org.ru/font/PalladioUralic.zip> (regular,
+      bold, italic) - Palatino-like typeface
+    * Roman Uralic <http://www.peoples.org.ru/font/RomanUralic.zip>
+      (regular, bold, italic) - Times-like typeface
+    * Sans Uralic <http://www.peoples.org.ru/font/SansUralic.zip>
+      (regular, bold, italic, bold italic) - Helvetica-like sans serif
+      typeface
+    * Sans Condensed Uralic
+      <http://www.peoples.org.ru/font/SansCondUralic.zip> (regular,
+      bold) - Narrow version of Sans Uralic
+    * Schoolbook Uralic
+      <http://www.peoples.org.ru/font/SchoolbookUralic.zip> (regular,
+      bold, italic)
+
+Additional letters
+
+The encoding of the fonts is based on the model of the Cyrillic Asian
+encoding. The Russian alphabet occupies the place of
+the Latin-1 supplement in the Western (Windows CP 1252) encoding and its
+own Unicode positions in the Cyrillic (CP 1251) encoding. Additional
+Uralic letters can be found in three places - instead of additional
+characters in the Western encoding, instead of additional characters in
+the Cyrillic encoding and in their own Unicode positions (with the
+exceptions of those letters that are not found in this standard).
+Existing Mari and Udmurt fonts were taken into consideration while
+distributing positions, but incorporating their encodings did not prove
+possible. Eventually, Udmurt fonts were used as the starting point. See
+the test page for details.
+
+The original fonts were created by URW++, the Cyrillic part by Valek
+Filippov, and were modified by Esa Anttikoski. These fonts can be
+distributed and modified freely in accordance with the GNU General
+Public License.
+
+We take no responsability for any possible damage that might occure
+while installing and using the fonts. Send your comments and suggestions
+to Esa.Anttikoski@joensuu.fi <Esa.Anttikoski@joensuu.fi>
+
+
+------------------------------------------------------------------------
+*) Musaev K.M. Jazyki i pis'mennosti narodov Evrazii (regiona byvshego
+SSSR). Almaty:ylym, 1993.
+
