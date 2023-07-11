@@ -1,22 +1,25 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: Uralic
+Upstream-Author: URW++ Design & Development GmbH, Valek Filippov <frob@df.ru>, Esa Anttikoski <Esa.Anttikoski@joensuu.fi>
+Source: http://peoples.org.ru/eng_uralic.html
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
+Copyright: Copyright (c) 2000-2004 URW++ Design & Development GmbH, Valek Filippov,Esa Anttikoski
+License: GPL-2.0
+ This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
  .
- This package is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,   
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ You should have received a copy of the GNU General Public License 
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, 
+ N: MA 02110-1301, USA.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the complete text of the GNU General Public License 
+ can be found in /usr/share/common-licenses/GPL-2 file.

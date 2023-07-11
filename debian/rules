@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
-
 %:
 	dh $@
+
+		
+override_dh_install:
+	TZ=UTC find upstream -name "*.zip" -exec unzip -Lj {} "*.ttf" -d$(CURDIR)/debian/fonts-uralic/usr/share/fonts/truetype/uralic ';' -print
+	
